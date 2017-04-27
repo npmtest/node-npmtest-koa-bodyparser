@@ -35,33 +35,18 @@
 ```json
 
 {
-    "name": "koa-bodyparser",
-    "version": "4.2.0",
-    "description": "a body parser for koa",
-    "main": "index.js",
-    "scripts": {
-        "test": "make test"
+    "author": {
+        "name": "dead_horse",
+        "url": "http://deadhorse.me"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/koajs/bodyparser.git"
-    },
-    "files": [
-        "index.js"
-    ],
-    "keywords": [
-        "bodyParser",
-        "json",
-        "urlencoded",
-        "koa",
-        "body"
-    ],
-    "author": "dead_horse <dead_horse@qq.com> (http://deadhorse.me)",
-    "license": "MIT",
     "bugs": {
         "url": "https://github.com/koajs/body-parser/issues"
     },
-    "homepage": "https://github.com/koajs/body-parser",
+    "dependencies": {
+        "co-body": "^5.1.0",
+        "copy-to": "^2.0.1"
+    },
+    "description": "a body parser for koa",
     "devDependencies": {
         "autod": "2.4.2",
         "istanbul": "^0.4.5",
@@ -70,13 +55,62 @@
         "should": "^11.2.0",
         "supertest": "^3.0.0"
     },
-    "dependencies": {
-        "co-body": "^5.1.0",
-        "copy-to": "^2.0.1"
+    "directories": {},
+    "dist": {
+        "shasum": "bce6e08bc65f8709b6d1faa9411c7f0d8938aa54",
+        "tarball": "https://registry.npmjs.org/koa-bodyparser/-/koa-bodyparser-4.2.0.tgz"
     },
     "engines": {
         "node": ">=7.6"
     },
+    "files": [
+        "index.js"
+    ],
+    "gitHead": "d836995468a15347022950c4da9d3222eb7ed2de",
+    "homepage": "https://github.com/koajs/body-parser",
+    "keywords": [
+        "bodyParser",
+        "json",
+        "urlencoded",
+        "koa",
+        "body"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "dead_horse"
+        },
+        {
+            "name": "fengmk2"
+        }
+    ],
+    "name": "koa-bodyparser",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/koajs/bodyparser.git"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "version": "4.2.0",
+    "warnings": [
+        {
+            "code": "ENOTSUP",
+            "required": {
+                "node": ">=7.6"
+            },
+            "pkgid": "koa-bodyparser@4.2.0"
+        },
+        {
+            "code": "ENOTSUP",
+            "required": {
+                "node": ">=7.6"
+            },
+            "pkgid": "koa-bodyparser@4.2.0"
+        }
+    ],
     "bin": {}
 }
 ```
